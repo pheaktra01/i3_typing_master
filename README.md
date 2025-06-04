@@ -44,29 +44,6 @@ A clean and simple web-based typing speed test built with HTML, CSS, and JavaScr
    - User is redirected to `result.html` to see the result.
 
 ---
-
-## Project Structure
-
-📁 typing-test-app/
-├── css/
-│ └── landingStyle.css
-│ └── aboutStyle.css
-│ └── loginStyle.css
-│ └── registerStyle.css
-│ └── resetPasswordStyle.css
-│ └── resultStyle.css
-│ └── testStyle.css
-├── test.js
-├── landingPage.html (Landing Page)
-├── register.html (User Registration)
-├── login.html (User Login)
-├── reset-password.html (Password Reset)
-├── test.html (Typing Test Page)
-├── result.html (Test Results Page)
-├── about.html (About Us Page)
-└── README.md
-
----
 ## 📌 Requirements
 
 - A modern web browser (Chrome, Firefox, Edge)
