@@ -1,0 +1,77 @@
+body {
+    background: #f4f6fb;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.typing-test-container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+.typing-test-container h2 {
+    margin-bottom: 1rem;
+    color: #2d3a4b;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+#textToType {
+    background: #f0f2f8;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #444;
+    border: 1px solid #e0e4ea;
+}
+#typingArea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #bfc9d8;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+    resize: none;
+    outline: none;
+    transition: border 0.2s;
+}
+#typingArea:focus {
+    border: 1.5px solid #4f8cff;
+    background: #f7faff;
+}
+.test-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.test-controls p {
+    margin: 0;
+    font-size: 1rem;
+    color: #2d3a4b;
+}
+#timer {
+    font-weight: bold;
+    color: #4f8cff;
+}
+.test-controls button {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.test-controls button:hover {
+    background: #2563eb;
+}
