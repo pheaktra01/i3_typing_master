@@ -1,0 +1,62 @@
+body {
+    background: #f4f6fb;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4f8cff;
+    color: white;
+    padding: 10px 20px;
+}
+nav div {
+    font-size: 24px;
+}
+nav a{
+    margin: 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.landingPage{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+}
+
+.typing-test-cta {
+    background-color: #fff;
+    width: 50%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+}
+.typing-test-cta h2 {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.typing-test-cta button {
+    background: #4f8cff;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.typing-test-cta button:hover {
+    background: #e68900;
+}
