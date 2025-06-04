@@ -1,0 +1,74 @@
+body {
+    background: #f4f6fb;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.register-container {
+    background: #fff;
+    max-width: 350px;
+    margin: 60px auto;
+    padding: 32px 28px 24px 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+.register-container h2 {
+    margin-bottom: 22px;
+    color: #22223b;
+    text-align: center;
+    font-weight: 600;
+}
+.register-form label {
+    display: block;
+    margin-bottom: 16px;
+    color: #4a4e69;
+    font-size: 15px;
+}
+.register-form span {
+    display: block;
+    margin-bottom: 6px;
+}
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f8f9fa;
+    transition: border 0.2s;
+}
+.register-form input:focus {
+    border-color: #5e60ce;
+    outline: none;
+}
+.register-form button {
+    width: 100%;
+    padding: 10px 0;
+    background: #5e60ce;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+.register-form button:hover {
+    background: #3a3fc1;
+}
+.login-link {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+.login-link a {
+    color: #5e60ce;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-link a:hover {
+    text-decoration: underline;
+}
