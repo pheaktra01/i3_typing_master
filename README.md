@@ -48,15 +48,13 @@ A clean and simple web-based typing speed test built with HTML, CSS, and JavaScr
 
 - A modern web browser (Chrome, Firefox, Edge)
 - No backend required (fully client-side)
-
 ---
-
-## Author 
-
-Loeng Pheaktra
-
 ## **Download or clone** this repository:
 
 ```bash
 git clone https://github.com/Chea69/i3_typing_master.git
 ```
+---
+## Author 
+
+Loeng Pheaktra
