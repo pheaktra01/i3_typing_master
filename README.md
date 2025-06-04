@@ -51,6 +51,10 @@ A clean and simple web-based typing speed test built with HTML, CSS, and JavaScr
 
 ---
 
+## Author 
+
+Loeng Pheaktra
+
 ## **Download or clone** this repository:
 
 ```bash
