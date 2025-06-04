@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/loginStyle.css">
+</head>
+<body>
+  <button onclick="window.history.back()" style="position:absolute;left:24px;top:24px;background:#e2e8f0;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-size:1rem;color:#2d3a4b;">Back</button>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="post" class="login-form">
+      <label>
+        Username or Email:
+        <input type="text" name="identifier" required>
+      </label>
+      <label>
+        Password:
+        <input type="password" name="password" required>
+      </label>
+      <button type="submit">Login</button>
+    </form>
+    <p><a href="reset-password.html">Forgot Password?</a></p>
+    <p>Don't have an account? <a href="register.html">Register</a></p>
+  </div>  
+</body>
+</html>
+
